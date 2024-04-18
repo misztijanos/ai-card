@@ -24,43 +24,9 @@ body {
   font-size: 40px;
 }
 
-.basics {
-  background: rgba(0, 0, 0, 0.6);
-  color: rgba(226, 228, 233, 0.82);
-
-  margin: auto;
-  width: 100%;
-  padding: 120px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  align-items: flex-start;
-  border-bottom: 1px solid white;
-}
-
-.basics h3,
-.family h3 {
-  margin: 0 30%;
-  padding: 0;
-}
-
-.basics h3 span,
-.family h3 span {
-  font-weight: 400;
-}
-
-.family {
-  background: rgba(226, 228, 233, 0.95);
-  color: rgba(0, 0, 0, 0.9);
-
-  margin: auto;
-  width: 100%;
-  padding: 120px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  align-items: flex-start;
-  border-bottom: 1px solid white;
+@media (max-width: 767px) {
+  .name {
+    font-size: 24px;
+    inset: 60% auto auto 10%;
+  }
 }
